@@ -1,119 +1,52 @@
-# Books Sales EDA — Business Insight Report
-### by Syed Muhammad Ali
+
+# Babar Azam Career Statistics – Power BI Dashboard
+
+This repository contains a Power BI dashboard analyzing the career performance of Babar Azam.  
+The report highlights his batting statistics across formats, year-wise runs, boundaries, strike rate, averages, and milestones.
 
 ---
 
-## Project Summary
+## 📊 Dashboard Overview
 
-This project presents an Exploratory Data Analysis (EDA) of a books sales dataset.  
-The goal is to extract commercially meaningful insights that help understand pricing behavior, customer engagement, genre performance, stock patterns, and overall revenue potential.
+The dashboard includes:
 
-The analysis blends data exploration with business interpretation, providing decision-ready insights for publishers, online bookstores, and retail managers.
-
----
-
-## Key Business Insights
-
-### 1. High Review Count Strongly Predicts Visibility and Sales
-Books with the highest review volumes consistently dominate top-rated and high-selling categories.  
-Review volume is a reliable indicator of market visibility and long-term demand.
-
-### 2. Certain Genres Have Higher Pricing Power
-Some genres consistently show higher average prices.  
-This suggests strong customer willingness to pay, allowing retailers to strategically set premium pricing within these categories.
-
-### 3. Ratings Alone Do Not Predict Revenue
-Several books with excellent ratings have low prices or limited stock.  
-Revenue potential depends on the combined effect of:
-- rating  
-- price  
-- available stock  
-
-A high rating only indicates quality, not profitability.
-
-### 4. Revenue Is Concentrated Among a Small Group of Books
-The analysis shows that a small percentage of books contribute the majority of estimated revenue.  
-This follows the Pareto Principle: roughly 20% of titles generate 80% of income.
-
-### 5. Publishers With Larger Catalogs Hold Market Advantage
-Publishers releasing more titles display stronger market presence and higher likelihood of customer trust.  
-For retailers, these publishers represent valuable long-term partnerships.
-
-### 6. Recently Published Books Tend to Perform Better
-Books published in recent years show higher average ratings and stronger customer engagement.  
-Factors include improved writing quality, better marketing, and stronger reader communities.
-
-### 7. High-Rated Books With Low Stock Indicate Missed Revenue
-Several books rated above 4.5 have extremely low stock levels.  
-These represent immediate restocking opportunities because demand is already proven.
+- Total innings, runs, average, and strike rate  
+- Format filter (ODI, T20, Test)  
+- Year-range slicer (2015 to 2025)  
+- Boundaries breakdown (Fours vs Sixes)  
+- Runs by year chart  
+- Hundreds and fifties trend  
+- Clean and modern UI design  
 
 ---
 
-## Analytics Performed
+## 📸 Dashboard Screenshot
 
-The analysis includes:
-- Price distribution exploration  
-- Rating analysis across genres  
-- Review count analysis  
-- Estimated revenue calculation  
-- Publisher performance metrics  
-- Correlation analysis (rating vs. reviews vs. price)  
-- Identification of top high-value books  
-- Time-based trends by publication year  
+> Below is the preview of the dashboard included in the repository.
+
+![Dashboard Screenshot](Babar%20azam%20career/Screenshot%202025-11-18%20001354.png)
 
 ---
 
-## Visuals Included in Notebook
+## 📂 Files Included in This Repository
 
-The Jupyter notebook includes:
-- Bar charts  
-- Histograms  
-- Scatter plots  
-- Box plots  
-- Heatmaps  
-- Top-10 comparisons  
-- Year-wise trend visualizations  
+| File Name | Description |
+|-----------|-------------|
+| **Babar_Azam_Data.xlsx** | Cleaned dataset used for Power BI visuals |
+| **Babar_Azam_Dashboard.pbix** | Editable Power BI dashboard file |
+| **Babar_Azam_Dashboard.pbit** | Dashboard template file |
+| **Screenshot 2025-11-18 001354.png** | Dashboard full screenshot |
 
 ---
 
-## Files in This Repository
+## 📝 Data Source
 
-| File Name                | Description                                |
-|--------------------------|--------------------------------------------|
-| Books_sales.ipynb        | Complete EDA notebook with visualizations  |
-| Books_Data_Clean.csv     | Cleaned dataset used for analysis          |
+The data was collected from CricMetric’s Babar Azam statistics pages and cleaned for reporting.
 
 ---
 
-## Business Value of This Project
+## 🚀 How to Use
 
-This project provides actionable insights for:
-
-- Bookstores and e-commerce sellers  
-- Publishing companies  
-- Marketing teams  
-- Inventory and supply-chain managers  
-- Data-driven product recommendation systems  
-
-Key benefits include:
-- Better pricing strategy per genre  
-- Improved inventory planning  
-- Identification of high-value titles  
-- Stronger promotional targeting  
-- Enhanced understanding of customer behavior  
-
----
-
-## Author
-
-**Syed Muhammad Ali**  
-GitHub: https://github.com/muhammad102331-hash  
-LinkedIn: https://www.linkedin.com/in/syed-muhammad-ali-64613838b/
-
----
-
-## How to Use This Project
-
-1. Clone the repository:
+1. Clone the repository:  
    ```bash
-   git clone https://github.com/muhammad102331-hash/Books-Sales-EDA.git
+   git clone https://github.com/muhammad102331-hash/Babar-Azam-Career-Statistics.git
